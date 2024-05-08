@@ -105,11 +105,22 @@ h1{
 }
 
 
-.card img {
-    width: 200px;   /* Set a fixed width */
-    height: 150px;  /* Set a fixed height */
-    object-fit: cover; /* This prevents the images from distorting */
+.card-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
+.card img {
+    width: 200px;  
+    height: 150px;  
+    object-fit: cover; 
+}
+
+
 
 
 
@@ -158,6 +169,7 @@ h1{
 
 .blue-text{
     background-color: #3882f6;
+    color: #E5E7EB;
     font-size: 18px;
     padding: 15px;
     display: flex;
